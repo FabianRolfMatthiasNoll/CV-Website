@@ -51,9 +51,9 @@
 }
 /***********************
 *
-*   Box Elements
+*   Card System
 *
-***********************/
+***********************
 .full100-box{
     margin: 20px;
     padding: 20px;
@@ -102,7 +102,7 @@
     background-color: #261D52;
     transition-duration: 0.4s;
 }
-.tophalf50right-box{
+.tophalf60right-box{
     margin: 20px;
     padding: 20px;
     position: fixed;
@@ -114,7 +114,7 @@
     background-color: #261D52;
     transition-duration: 0.4s;
 }
-.bottomhalf50right-box{
+.bottomhalf40right-box{
     margin: 20px;
     padding: 20px;
     position: fixed;
@@ -122,10 +122,64 @@
     top: 50%;
     right: 1.5%;
     left: 50%;
+} */
+.card{
+    margin: 20px;
+    padding: 20px;
+    position: fixed;
     border-radius: 16px;
     background-color: #261D52;
     transition-duration: 0.4s;
-} 
+}
+.card-left{
+    right: 50%;
+    left: 1.5%;
+}
+.card-right{
+    right: 1.5%;
+    left: 50%;
+}
+.card-66bottom{
+    bottom: 9%;
+    top: 33.3%;
+}
+.card-60top{
+    bottom: 50%;
+    top: 2%;
+}
+.card-60bottom{
+    bottom: 9%;
+    top: 45%;
+}
+.card-50top{
+    bottom: 52.5%;
+    top: 2%;
+}
+.card-50bottom{
+    bottom: 9%;
+    top: 47.5%;
+}
+.card-40bottom{
+    bottom: 9%;
+    top: 50%;
+}
+.card-40top{
+    bottom: 55%;
+    top: 2%;
+}
+.card-33top{
+    bottom: 66.6%;
+    top: 2%;
+}
+.card-fullheight{
+    bottom: 9%;
+    top: 2%;
+}
+.card-fullwidth{
+    right: 1.5%;
+    left: 1.5%;
+}
+
 /***********************
 *
 *   Styling classes
@@ -294,7 +348,7 @@ h3 {
     right: 5%;
     left: 55%;
     border-radius: 16px;
-    background-image: url(.//img/me.png);
+    background-image: url(.//img/realme.png);
     background-size: cover;
     background-position: center;
     background-position-y: 20px;
