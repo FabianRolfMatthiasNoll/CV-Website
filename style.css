@@ -110,6 +110,9 @@
     right: 1.5%;
     left: 1.5%;
 }
+.card-hidden{
+    opacity: 0;
+}
 
 /***********************
 *
@@ -128,7 +131,7 @@
 }
 .line{
     border-bottom: 2px solid white;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     display: block;
 }
 .linesmall{
